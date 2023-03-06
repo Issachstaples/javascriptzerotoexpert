@@ -1,0 +1,11 @@
+let msg = `!spellroll --@{selected||token_id} --[[1d20+x]] --?{Spellburn|0} --spellNameCamelCase`;
+let args = msg.split(" --", 10);
+console.log(args[0]);
+args.shift();
+console.log(args[0]);
+args.shift();
+console.log(args[0]);
+args.shift();
+console.log(args[0]);
+args.shift();
+console.log(args[0]);
